@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1.display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p.lead {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+img.rounded-circle {
+  transition: transform 0.3s ease;
+}
+
+img.rounded-circle:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+.bg-BurlyWood {
+  background-color: BurlyWood    !important; /* Custom crimson background */
+}
+
+.vh-80 {
+  height: 80vh;
+}
+/* Custom CSS for larger profile image */
+.profile-large {
+  width: 80%;  /* Adjust width as necessary */
+  max-width: 300px;  /* Optional: Max width for larger screens */
+}
+/* Custom orange button class */
+.btn-orange {
+  background-color: #555;  /* Orange color */
+  border-color: #555;      /* Darker orange border for contrast */
+}
+
+.btn-orange:hover {
+  background-color: #FF8C00;  /* Darker orange on hover */
+  border-color: #FF7F00;      /* Darker border on hover */
+}
+
+
+/* Ensure the container takes full height of the viewport */
+.resume-container {
+  height: 100vh;  /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;  /* Position content at the top */
+  padding-top: 20px;  /* Optional: Add some top padding */
+}
+
+/* Style the object tag to fit the full height and width */
+.pdf-viewer {
+  width: 80%;
+  height: 100%;  /* Make the object fill the full container height */
+  border: none;
+}
+
+/* Custom styles for the Software Experience page */
+/* h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+} */
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #f9f9f9;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 960px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
