@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+
 function WebsiteNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="bg-color" variant="dark">
@@ -18,15 +19,9 @@ function WebsiteNavbar() {
             <Nav.Link as={Link} to="/resume">
               Resume
             </Nav.Link>
-            <NavDropdown title="Experience" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/software-experience">
-                Software Experience
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/hardware-experience">
-                Hardware Experience
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link as={Link} to="/software-experience">
+              Experience
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="/contact">

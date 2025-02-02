@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import profilePhoto from '../assets/profile.jpg';
-
+import Skills from '../components/Skills';
 
 function AboutPage() {
   return (
     <div className="vh-80 d-flex align-items-center justify-content-center ">
 
       <Container>
-        <Row className="about-card align-items-center p-4  my-4 text-white ">
+        <Row className="about-card align-items-center p-4  my-4 text-white " md={12}>
 
           <Col xs={12} sm={12} md={4} className="text-start">
 
@@ -35,27 +35,8 @@ function AboutPage() {
 
         </Row>
 
+        <Skills />
 
-        <Row className="   text-white " md={12}>
-          <Col md={3}>
-            <p className="about-skills text-start p-3">HTML</p>
-          </Col>
-          <Col md={3}>
-            <p className="about-skills text-start p-3">CSS</p>
-          </Col>
-          <Col md={3} >
-            <p className="about-skills text-start p-3">PHP</p>
-          </Col>
-          <Col md={3}>
-            <p className="about-skills text-start p-3">Javascript</p>
-          </Col>
-          <Col md={3} >
-            <p className="about-skills text-start p-3">MySQL</p>
-          </Col>
-          <Col md={3} >
-            <p className="about-skills text-start p-3">SQL</p>
-          </Col>
-        </Row>
       </Container>
 
     </div>

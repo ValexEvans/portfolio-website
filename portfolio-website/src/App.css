@@ -1,12 +1,14 @@
 .App {
   text-align: center;
-  background-color: #0d1117; /* Custom crimson background */
-} 
+  background-color: #0d1117;
+  /* Custom crimson background */
+}
 
 
 .bg-color {
-  background-color: #0d1117; /* Custom crimson background */
-} 
+  background-color: #0d1117;
+  /* Custom crimson background */
+}
 
 
 
@@ -36,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -46,12 +49,14 @@ h1.display-4 {
   font-weight: bold;
   color: white;
 }
+
 h6.display-4 {
   font-size: 1.5rem;
   font-weight: bold;
   color: #856a00;
   align-items: center;
 }
+
 h6.display-1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -69,7 +74,8 @@ img.rounded-circle {
 }
 
 img.rounded-circle:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
+  transform: scale(1.05);
+  /* Slight zoom on hover */
 }
 
 
@@ -79,42 +85,64 @@ img.rounded-circle:hover {
   height: 80vh;
 }
 
+.vh-20 {
+  height: 20vh;
+}
+
+.vh-60 {
+  height: 60vh;
+}
+
 /* Custom CSS for larger profile image */
 .profile-large {
-  width: 100%;  /* Adjust width as necessary */
-  max-width: 350px;  /* Optional: Max width for larger screens */
+  width: 100%;
+  /* Adjust width as necessary */
+  max-width: 350px;
+  /* Optional: Max width for larger screens */
 }
+
 /* Custom CSS for larger profile image */
 .profile-small {
-  width: 100%;  /* Adjust width as necessary */
-  max-width: 230px;  /* Optional: Max width for larger screens */
+  width: 100%;
+  /* Adjust width as necessary */
+  max-width: 230px;
+  /* Optional: Max width for larger screens */
 }
+
 /* Custom orange button class */
 .btn-orange {
-  background-color: #555;  /* Orange color */
-  border-color: #555;      /* Darker orange border for contrast */
+  background-color: #555;
+  /* Orange color */
+  border-color: #555;
+  /* Darker orange border for contrast */
 }
 
 .btn-orange:hover {
-  background-color: #FF8C00;  /* Darker orange on hover */
-  border-color: #FF7F00;      /* Darker border on hover */
+  background-color: #FF8C00;
+  /* Darker orange on hover */
+  border-color: #FF7F00;
+  /* Darker border on hover */
 }
 
 
 /* Ensure the container takes full height of the viewport */
 .resume-container {
-  height: 100vh;  /* Full viewport height */
+  height: 100vh;
+  /* Full viewport height */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;  /* Position content at the top */
-  padding-top: 20px;  /* Optional: Add some top padding */
+  justify-content: flex-start;
+  /* Position content at the top */
+  padding-top: 20px;
+  /* Optional: Add some top padding */
 }
 
 /* Style the object tag to fit the full height and width */
 .pdf-viewer {
   width: 80%;
-  height: 100%;  /* Make the object fill the full container height */
+  height: 100%;
+  /* Make the object fill the full container height */
   border: none;
 }
 
@@ -153,16 +181,30 @@ img.rounded-circle:hover {
 
 
 .about-card {
-  background-color: #15181C; /* Custom crimson background */
+  background-color: #15181C;
+  /* Custom crimson background */
   border-radius: 10px;
-} 
+}
 
 
 
 .about-skills {
 
-  border: 2px solid #ffffff;   
+  border: 2px solid #ffffff;
   border-radius: 8px;
   margin: 5px;
+  font-weight: 500;
 
+}
+
+
+
+.btn-primary {
+  background-color: #15181C;
+  border-color: #15181C;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
