@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function WebsiteNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
+    <Navbar collapseOnSelect expand="lg" bg="bg-color" variant="dark">
+      <Container className='py-2'>
         <Navbar.Brand as={Link} to="/">
           Portfolio
         </Navbar.Brand>

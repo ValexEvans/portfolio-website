@@ -5,17 +5,18 @@ import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
-    <div className="bg-BurlyWood vh-80 d-flex align-items-center justify-content-center">
-      <Container className="mt-5">
+    <div className="vh-80 d-flex align-items-center justify-content-center">
+      <Container >
         <Row className="align-items-center">
           {/* Left Side: Title and Description */}
           <Col xs={12} sm={12} md={6} className="text-start mb-4 mb-md-0">
-            <h1 className="display-4">Hi, I'm Valex J.P. Evans</h1>
+            <h6 className="display-4">Hello World, I'm</h6>
+            <h1 className="display-4">Valex Jean-Pierre Evans</h1>
             <p className="lead">
-              I'm a Computer Science major with a passion for robotics, AI, and web development. I enjoy solving complex problems, creating innovative projects, and helping businesses bring their visions to life.
+              Web Developer
             </p>
             <Button as={Link} to="/about" className="btn-orange">
-              Learn More About Me
+              Learn More
             </Button>
           </Col>
 
@@ -26,7 +27,7 @@ function HomePage() {
               alt="Profile"
               className="img-fluid rounded-circle profile-large"
               style={{
-                border: '5px solid rgb(8, 14, 20)',
+                border: '5px solid #856a00',
               }}
             />
           </Col>

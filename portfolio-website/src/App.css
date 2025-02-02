@@ -1,11 +1,15 @@
 .App {
   text-align: center;
-}
+  background-color: #0d1117; /* Custom crimson background */
+} 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+.bg-color {
+  background-color: #0d1117; /* Custom crimson background */
+} 
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,15 +40,28 @@
     transform: rotate(360deg);
   }
 }
+
 h1.display-4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  color: white;
+}
+h6.display-4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #856a00;
+  align-items: center;
+}
+h6.display-1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
 }
 
 p.lead {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
-  color: #555;
+  color: #f8f9fa;
 }
 
 img.rounded-circle {
@@ -54,17 +71,23 @@ img.rounded-circle {
 img.rounded-circle:hover {
   transform: scale(1.05); /* Slight zoom on hover */
 }
-.bg-BurlyWood {
-  background-color: BurlyWood    !important; /* Custom crimson background */
-}
+
+
+
 
 .vh-80 {
   height: 80vh;
 }
+
 /* Custom CSS for larger profile image */
 .profile-large {
-  width: 80%;  /* Adjust width as necessary */
-  max-width: 300px;  /* Optional: Max width for larger screens */
+  width: 100%;  /* Adjust width as necessary */
+  max-width: 350px;  /* Optional: Max width for larger screens */
+}
+/* Custom CSS for larger profile image */
+.profile-small {
+  width: 100%;  /* Adjust width as necessary */
+  max-width: 230px;  /* Optional: Max width for larger screens */
 }
 /* Custom orange button class */
 .btn-orange {
@@ -126,4 +149,20 @@ img.rounded-circle:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+
+.about-card {
+  background-color: #15181C; /* Custom crimson background */
+  border-radius: 10px;
+} 
+
+
+
+.about-skills {
+
+  border: 2px solid #ffffff;   
+  border-radius: 8px;
+  margin: 5px;
+
 }

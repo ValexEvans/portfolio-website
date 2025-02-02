@@ -25,7 +25,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         </div>
-        <WebsiteFooter />
+       
       </div>
     </BrowserRouter>
   );
