@@ -20,7 +20,7 @@ export default function Skills() {
     );
 
     return (
-        <Container className="text-start vh-20 ">
+        <Container className="text-start vh-40 ">
             {/* Button Row */}
             <Row className="mb-4 ">
                 <Col>
