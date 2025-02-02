@@ -16,11 +16,11 @@ function WebsiteNavbar() {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="/resume">
-              Resume
-            </Nav.Link>
             <Nav.Link as={Link} to="/software-experience">
               Experience
+            </Nav.Link>
+            <Nav.Link as={Link} to="/resume">
+              Resume
             </Nav.Link>
           </Nav>
           <Nav>

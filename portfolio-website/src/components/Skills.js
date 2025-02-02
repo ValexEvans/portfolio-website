@@ -12,7 +12,7 @@ export default function Skills() {
     const renderSkills = (skills) => (
         <Row className="text-white">
             {skills.map((skill, index) => (
-                <Col md={3} key={index} className="p-2">
+                <Col key={index} className="p-2" md={3}>
                     <p className="about-skills text-start p-3 bg-dark rounded">{skill}</p>
                 </Col>
             ))}
