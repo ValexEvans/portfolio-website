@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import profilePhoto from '../assets/profile.jpg'; // Replace with your profile photo path
 import { Link } from 'react-router-dom';
 
+
 function HomePage() {
   return (
     <div className="vh-80 d-flex align-items-center justify-content-center">
