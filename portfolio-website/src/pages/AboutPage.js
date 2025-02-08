@@ -27,9 +27,8 @@ function AboutPage() {
           </Col>
 
           <Col xs={12} sm={12} md={8} className="text-start pt-5">
-            <p>Hi, I'm Valex a a passionate Web Developer dedicated to crafting clean, efficient, and user-friendly web experiences. With a strong eye for design and a deep love for problem-solving, I specialize in transforming ideas into fully functional, responsive websites that not only look great but also perform seamlessly.
-
-              <br /> My journey in web development began with a curiosity for how things work on the internet, which quickly evolved into a full-fledged passion for building dynamic, interactive, and visually appealing websites. Whether it's developing a brand-new project from the ground up, optimizing an existing site for better performance, or implementing the latest technologies to enhance user experience, I am always eager to push the boundaries of what's possible.
+            <p>Hi,  I'm Valex Jean-Pierre Evans, a computer science student with hands-on experience in software and web development. Through my academic projects and internships, I've gained proficiency in C++, Python, JavaScript, and React, working on projects like backend API development for e-commerce platforms and building scalable web applications. I thrive in dynamic environments and approach each project with a focus on quality, efficiency, and problem-solving. I'm passionate about creating impactful software solutions and am eager to apply my technical expertise to new opportunities in the industry.
+              <br />Thank you for exploring my work.
             </p>
           </Col>
 
