@@ -7,25 +7,24 @@ import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App d-flex flex-column" style={{ minHeight: '100vh' }}>
         <div className="flex-grow-1">
           <WebsiteNavbar />
           <Routes>
-            <Route path="/portfolio-website" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/resume" element={<ResumePage />} />
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
-
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 export default App;
