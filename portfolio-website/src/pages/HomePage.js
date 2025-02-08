@@ -22,7 +22,8 @@ function HomePage() {
           </Col>
 
           {/* Right Side: Profile Photo */}
-          <Col xs={12} sm={12} md={6} className="text-center p-3">
+          <Col xs={12} sm={12} md={6} className="text-center
+           p-3">
             <img
               src={profilePhoto}
               alt="Profile"

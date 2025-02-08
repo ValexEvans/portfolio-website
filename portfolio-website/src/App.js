@@ -6,26 +6,24 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import ExperiencePage from './pages/ExperiencePage';
-import HardwareExperiencePage from './pages/HardwareExperiencePage';
 import ContactPage from './pages/ContactPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App d-flex flex-column"  style={{ minHeight: '100vh' }}>
-      <div className="flex-grow-1">
-        <WebsiteNavbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-          <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/hardware-experience" element={<HardwareExperiencePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
+      <div className="App d-flex flex-column" style={{ minHeight: '100vh' }}>
+        <div className="flex-grow-1">
+          <WebsiteNavbar />
+          <Routes>
+            <Route path="/portfolio-website" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/resume" element={<ResumePage />} />
+            <Route path="/experience" element={<ExperiencePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
         </div>
-       
+
       </div>
     </BrowserRouter>
   );

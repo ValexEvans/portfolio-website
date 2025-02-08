@@ -7,7 +7,7 @@ function WebsiteNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="bg-color" variant="dark">
       <Container className='py-2'>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/portfolio-website">
           Portfolio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
