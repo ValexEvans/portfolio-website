@@ -6,7 +6,7 @@ import limbitless from '../assets/limbitless.jpg'; // Replace with your profile 
 import crunchy from '../assets/crunchy.png'; // Replace with your profile photo path
 import { FaGithub } from "react-icons/fa6"
 
-export default function Experience() {
+export default function ExperienceList() {
     const [activeContent, setActiveContent] = useState('experience');
 
     const data = {
@@ -70,19 +70,19 @@ export default function Experience() {
             {
                 title: "Mobile Application Development for Turntable Project",
                 duration: "02/24 - 04/24",
-                icon:  <a href="https://github.com/kilkennylj/Turntable" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
+                icon: <a href="https://github.com/kilkennylj/Turntable" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
                 summary: "Developed API endpoints for seamless mobile app-backend connectivity. Coordinated with the front-end team to integrate and design the landing mobile wireframe.",
             },
             {
                 title: "Frontend Development for LAMP Stack Contact Manager Project",
                 duration: "01/24 - 02/24",
-                icon:  <a href="https://github.com/Katoromic/LAMPStack" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
+                icon: <a href="https://github.com/Katoromic/LAMPStack" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
                 summary: "Focused on the Front-End development, gaining proficiency in PHP, MySQL, and JavaScript.Presented a LAMP stack contact manager project, showcasing professionalism, standards adherence, and clear communication.",
             },
             {
                 title: "Image Classifier Using Convolutional Neural Networks",
                 duration: "10/23 - 12/23",
-                icon:  null,
+                icon: null,
                 summary: "Developed and trained a Convolutional Neural Network (CNN) using TensorFlow and Keras to classify handwritten digits from the MNIST dataset, achieving a test accuracy of 99%.",
             }
         ]
@@ -94,7 +94,7 @@ export default function Experience() {
         <Row className="text-white">
             {experience.map((item, index) => (
                 <Col key={index} sm={12} md={6}>
-                    <div className="mb-4 p-3 bg-dark rounded-4" >
+                    <div className="mb-4 p-3 bg-dark rounded-4  min-vh-experience" >
                         <img
                             src={item.image}
                             alt="Profile"
@@ -107,7 +107,7 @@ export default function Experience() {
                         />
                         <h5 className="pt-4">{item.role} | {item.company}</h5>
                         <p className="text-muted">{item.duration}</p>
-                        <p className="text-muted">{item.summary}</p>
+                        <p className="text-muted ">{item.summary}</p>
                         {/* <ul>
                             {item.details.map((detail, idx) => (
                                 <li key={idx}>{detail}</li>
@@ -123,64 +123,32 @@ export default function Experience() {
         <Row className="text-white">
             {projects.map((project, index) => (
                 <Col key={index} sm={12} md={6}>
-                    <div className="mb-4 p-3 bg-dark rounded-4" >
+                    <div className="mb-4 p-3 bg-dark rounded-4 min-vh-projects" >
                         <h5>{project.title}</h5>
                         <p className="text-muted">{project.duration}</p>
                         <p className="text-muted">{project.summary}</p>
                         <span>{project.icon}</span>
-                    
-                        {/* <ul>
-                            {project.details.map((detail, idx) => (
-                                <li key={idx}>{detail}</li>
-                            ))}
-                        </ul> */}
+
                     </div>
                 </Col>
             ))}
         </Row>
     );
 
-    // return (
-    //     <Container className="text-start vh-80">
-    //         {/* Button Row */}
-    //         <Row className="mb-4">
-    //             <Col>
-    //                 <div className="d-flex gap-2">
-    //                     <button
-    //                         className="btn btn-primary"
-    //                         onClick={() => setActiveContent('experience')}
-    //                     >
-    //                         Experience
-    //                     </button>
-    //                     <button
-    //                         className="btn btn-primary"
-    //                         onClick={() => setActiveContent('projects')}
-    //                     >
-    //                         Projects
-    //                     </button>
-    //                 </div>
-    //             </Col>
-    //         </Row>
-
-    //         {/* Content Row */}
-    //         <Row>
-    //             <Col>
-    //                 <div className="rounded" >
-    //                     {activeContent === 'experience' && renderExperience(data.experience)}
-    //                     {activeContent === 'projects' && renderProjects(data.projects)}
-    //                 </div>
-    //             </Col>
-    //         </Row>
-    //     </Container>
-    // );
     return (
         <Container className="text-start vh-80">
             {/* Content Row */}
             <Row>
                 <Col>
                     <div className="rounded">
-                        {renderProjects(data.projects)}
-                        {renderExperience(data.experience)}
+                        <Container className="text-white mb-4 p-3  rounded-4">
+                            <h5 className="text-white  p-2 ">Projects</h5>
+                            {renderProjects(data.projects)}
+                        </Container>
+                        <Container className="text-white mb-4 p-3  rounded-4">
+                            <h5 className="text-white  p-2 ">Work Experience</h5>
+                            {renderExperience(data.experience)}
+                        </Container>
                     </div>
                 </Col>
             </Row>

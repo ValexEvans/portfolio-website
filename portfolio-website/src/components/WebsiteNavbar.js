@@ -16,7 +16,7 @@ function WebsiteNavbar() {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="/software-experience">
+            <Nav.Link as={Link} to="/experience">
               Experience
             </Nav.Link>
             <Nav.Link as={Link} to="/resume">

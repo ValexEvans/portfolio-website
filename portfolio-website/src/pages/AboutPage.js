@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import profilePhoto from '../assets/profile.jpg';
-import Skills from '../components/Skills';
+import profilePhoto from '../assets/profile.png';
+import SkillsList from '../components/SkillsList';
 
 function AboutPage() {
   return (
@@ -35,7 +35,7 @@ function AboutPage() {
 
         </Row>
 
-        <Skills />
+        <SkillsList />
 
       </Container>
 

@@ -5,7 +5,7 @@ import WebsiteFooter from './components/WebsiteFooter';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
-import SoftwareExperiencePage from './pages/SoftwareExperiencePage';
+import ExperiencePage from './pages/ExperiencePage';
 import HardwareExperiencePage from './pages/HardwareExperiencePage';
 import ContactPage from './pages/ContactPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/software-experience" element={<SoftwareExperiencePage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/hardware-experience" element={<HardwareExperiencePage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
