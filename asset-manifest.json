@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.baa02f3e.css",
-    "main.js": "/portfolio-website/static/js/main.e7f6e8cd.js",
-    "static/js/488.f1ad4097.chunk.js": "/portfolio-website/static/js/488.f1ad4097.chunk.js",
-    "static/media/crunchy.png": "/portfolio-website/static/media/crunchy.a94ff6cd2f78c33d123a.png",
-    "static/media/profile.png": "/portfolio-website/static/media/profile.c52cad122dc4a84f38be.png",
-    "static/media/cooledtured.png": "/portfolio-website/static/media/cooledtured.79facc8e3f195d681a3f.png",
-    "static/media/viable.jpg": "/portfolio-website/static/media/viable.58cd9233e4a034c82a00.jpg",
-    "static/media/limbitless.jpg": "/portfolio-website/static/media/limbitless.32dd9791531045dd81f2.jpg",
-    "index.html": "/portfolio-website/index.html",
-    "main.baa02f3e.css.map": "/portfolio-website/static/css/main.baa02f3e.css.map",
-    "main.e7f6e8cd.js.map": "/portfolio-website/static/js/main.e7f6e8cd.js.map",
-    "488.f1ad4097.chunk.js.map": "/portfolio-website/static/js/488.f1ad4097.chunk.js.map"
+    "main.css": "/static/css/main.baa02f3e.css",
+    "main.js": "/static/js/main.58635c9d.js",
+    "static/js/488.f1ad4097.chunk.js": "/static/js/488.f1ad4097.chunk.js",
+    "static/media/crunchy.png": "/static/media/crunchy.a94ff6cd2f78c33d123a.png",
+    "static/media/profile.png": "/static/media/profile.c52cad122dc4a84f38be.png",
+    "static/media/cooledtured.png": "/static/media/cooledtured.79facc8e3f195d681a3f.png",
+    "static/media/viable.jpg": "/static/media/viable.58cd9233e4a034c82a00.jpg",
+    "static/media/limbitless.jpg": "/static/media/limbitless.32dd9791531045dd81f2.jpg",
+    "index.html": "/index.html",
+    "main.baa02f3e.css.map": "/static/css/main.baa02f3e.css.map",
+    "main.58635c9d.js.map": "/static/js/main.58635c9d.js.map",
+    "488.f1ad4097.chunk.js.map": "/static/js/488.f1ad4097.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa02f3e.css",
-    "static/js/main.e7f6e8cd.js"
+    "static/js/main.58635c9d.js"
   ]
 }
