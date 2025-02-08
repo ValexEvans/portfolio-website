@@ -60,7 +60,7 @@ export default function Experience() {
             {
                 title: "Synthetic Voice Operator Project - PEO STRI",
                 duration: "08/24 - Present",
-                icon:  <FaGithub />,
+                icon: <a href="https://github.com/portjm/SVO" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
                 summary: "Developed back-end APIs and integrated an advanced Large Language Model. Designed and implemented a MySQL database for storing and retrieving structured data efficiently.",
                 // details: [
                 //     "Developed back-end APIs and integrated an advanced Large Language Model.",
@@ -70,19 +70,19 @@ export default function Experience() {
             {
                 title: "Mobile Application Development for Turntable Project",
                 duration: "02/24 - 04/24",
-                icon:  <FaGithub />,
+                icon:  <a href="https://github.com/kilkennylj/Turntable" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
                 summary: "Developed API endpoints for seamless mobile app-backend connectivity. Coordinated with the front-end team to integrate and design the landing mobile wireframe.",
             },
             {
-                title: "Mobile Application Development for Turntable Project",
+                title: "Frontend Development for LAMP Stack Contact Manager Project",
                 duration: "01/24 - 02/24",
-                icon:  <FaGithub />,
+                icon:  <a href="https://github.com/Katoromic/LAMPStack" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
                 summary: "Focused on the Front-End development, gaining proficiency in PHP, MySQL, and JavaScript.Presented a LAMP stack contact manager project, showcasing professionalism, standards adherence, and clear communication.",
             },
             {
                 title: "Image Classifier Using Convolutional Neural Networks",
                 duration: "10/23 - 12/23",
-                icon:  <FaGithub />,
+                icon:  null,
                 summary: "Developed and trained a Convolutional Neural Network (CNN) using TensorFlow and Keras to classify handwritten digits from the MNIST dataset, achieving a test accuracy of 99%.",
             }
         ]

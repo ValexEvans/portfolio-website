@@ -97,7 +97,7 @@ img.rounded-circle:hover {
 .profile-large {
   width: 100%;
   /* Adjust width as necessary */
-  max-width: 350px;
+  max-width: 300px;
   /* Optional: Max width for larger screens */
 }
 
