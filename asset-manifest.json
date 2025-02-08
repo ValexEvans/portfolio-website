@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.baa02f3e.css",
-    "main.js": "/Portfolio-Website/static/js/main.559785c0.js",
-    "static/js/488.f1ad4097.chunk.js": "/Portfolio-Website/static/js/488.f1ad4097.chunk.js",
-    "static/media/crunchy.png": "/Portfolio-Website/static/media/crunchy.a94ff6cd2f78c33d123a.png",
-    "static/media/profile.png": "/Portfolio-Website/static/media/profile.c52cad122dc4a84f38be.png",
-    "static/media/cooledtured.png": "/Portfolio-Website/static/media/cooledtured.79facc8e3f195d681a3f.png",
-    "static/media/viable.jpg": "/Portfolio-Website/static/media/viable.58cd9233e4a034c82a00.jpg",
-    "static/media/limbitless.jpg": "/Portfolio-Website/static/media/limbitless.32dd9791531045dd81f2.jpg",
-    "index.html": "/Portfolio-Website/index.html",
-    "main.baa02f3e.css.map": "/Portfolio-Website/static/css/main.baa02f3e.css.map",
-    "main.559785c0.js.map": "/Portfolio-Website/static/js/main.559785c0.js.map",
-    "488.f1ad4097.chunk.js.map": "/Portfolio-Website/static/js/488.f1ad4097.chunk.js.map"
+    "main.css": "/portfolio-pebsite/static/css/main.baa02f3e.css",
+    "main.js": "/portfolio-pebsite/static/js/main.f61720ed.js",
+    "static/js/488.f1ad4097.chunk.js": "/portfolio-pebsite/static/js/488.f1ad4097.chunk.js",
+    "static/media/crunchy.png": "/portfolio-pebsite/static/media/crunchy.a94ff6cd2f78c33d123a.png",
+    "static/media/profile.png": "/portfolio-pebsite/static/media/profile.c52cad122dc4a84f38be.png",
+    "static/media/cooledtured.png": "/portfolio-pebsite/static/media/cooledtured.79facc8e3f195d681a3f.png",
+    "static/media/viable.jpg": "/portfolio-pebsite/static/media/viable.58cd9233e4a034c82a00.jpg",
+    "static/media/limbitless.jpg": "/portfolio-pebsite/static/media/limbitless.32dd9791531045dd81f2.jpg",
+    "index.html": "/portfolio-pebsite/index.html",
+    "main.baa02f3e.css.map": "/portfolio-pebsite/static/css/main.baa02f3e.css.map",
+    "main.f61720ed.js.map": "/portfolio-pebsite/static/js/main.f61720ed.js.map",
+    "488.f1ad4097.chunk.js.map": "/portfolio-pebsite/static/js/488.f1ad4097.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa02f3e.css",
-    "static/js/main.559785c0.js"
+    "static/js/main.f61720ed.js"
   ]
 }
