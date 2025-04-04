@@ -144,7 +144,7 @@ export default function ExperienceList() {
         <Row className="text-white">
             {projects.map((project, index) => (
                 <Col key={index} sm={12} md={6}>
-                    <div className="mb-4 p-3 bg-dark rounded-4 min-vh-projects" >
+                    <div className="mb-4 p-3 bg-dark rounded-4 min-vh-projects " >
                         <h5>{project.title}</h5>
                         <p className="text-muted">{project.duration}</p>
                         <p className="text-muted">{project.summary}</p>
