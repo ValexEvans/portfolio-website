@@ -23,7 +23,7 @@
 
 
 .min-vh-projects {
-  min-height: 280px;
+  min-height: 232px;
 }
 .min-vh-experience {
   min-height: 280px;
@@ -222,4 +222,28 @@ img.rounded-circle:hover {
 .btn-primary:hover {
   background-color: #0056b3;
   border-color: #0056b3;
+}
+
+.project-card {
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #212529, #1a1e21);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4) !important;
+  border-color: rgba(108, 117, 125, 0.8) !important;
+}
+
+
+.highlight-icon {
+  font-size: 1.5rem;
+  color: #0dcaf0;
+  filter: drop-shadow(0 0 3px rgba(13, 202, 240, 0.5));
+}
+
+
+.gold-shadow {
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+  /* subtle gold glow */
 }

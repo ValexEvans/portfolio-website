@@ -7,7 +7,6 @@ import crunchy from '../assets/crunchy.png'; // Replace with your profile photo 
 import { FaGithub } from "react-icons/fa6"
 
 export default function ExperienceList() {
-    const [activeContent, setActiveContent] = useState('experience');
 
     const data = {
         experience: [
@@ -56,6 +55,21 @@ export default function ExperienceList() {
                 // ]
             }
         ],
+        highlights: [
+            {
+                title: "Full-Stack Development for LAMP Stack Contact Manager Project",
+                duration: "01/24 - 02/24",
+                icon: <a href="https://github.com/ValexEvans/html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
+                summary: "Developed a multi-user web application with role-based access control using the LAMP stack, ensuring security and scalability. The project leveraged HTML, CSS, JavaScript, PHP, and MySQL, with deployment on DigitalOcean for optimal performance.",
+            },
+            {
+                title: "Portfolio Website Development to Showcase Skills and Projects",
+                duration: "Ongoing",
+                icon: <a href="https://github.com/ValexEvans/portfolio-website" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
+                summary: "Designed and developed a fully responsive personal portfolio website using React and Bootstrap to effectively present professional accomplishments. The site features a clean, modern interface with dedicated sections for project highlights, technical skills, education, and work experience.",
+
+            }
+        ],
         projects: [
             {
                 title: "Back-End Development for Synthetic Voice Operator Senior Design Project - PEO STRI",
@@ -71,7 +85,7 @@ export default function ExperienceList() {
                 title: "Portfolio Website Development to Showcase Skills and Projects",
                 duration: "Ongoing",
                 icon: <a href="https://github.com/ValexEvans/portfolio-website" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
-                summary: "Designed and developed a responsive personal portfolio website using React and Bootstrap. Showcases projects, skills, and experience with a clean, modern UI and optimized performance.",
+                summary: "Designed and developed a fully responsive personal portfolio website using React and Bootstrap to effectively present professional accomplishments. The site features a clean, modern interface with dedicated sections for project highlights, technical skills, education, and work experience.",
 
             },
             {
@@ -142,12 +156,41 @@ export default function ExperienceList() {
         </Row>
     );
 
+    const renderHighlights = (highlights) => (
+        <Row className="text-white g-4">
+            {highlights.map((highlights, index) => (
+                <Col key={index} sm={12} md={6}>
+                    <div className="project-card mb-4 p-4 bg-gradient-dark rounded-4 shadow-lg border border-secondary position-relative overflow-hidden  min-vh-projects">
+                        {/* Decorative element - diagonal accent line */}
+                        <div className="accent-line"></div>
+
+                        <h5 className="fw-bold mb-2 position-relative z-2">{highlights.title}</h5>
+                        <p className="text-muted">{highlights.duration}</p>
+                        <p className="text-muted mb-3">{highlights.summary}</p>
+
+                        {/* Icon with glowing effect */}
+                        <div className=" mb-3">
+                            <span className="highlight-icon">{highlights.icon}</span>
+                        </div>
+
+                        
+                    </div>
+                </Col>
+            ))}
+        </Row>
+    );
+
     return (
         <Container className="text-start vh-80">
             {/* Content Row */}
             <Row>
                 <Col>
                     <div className="rounded">
+                        
+                        <Container className="text-white mb-4 p-3  rounded-4">
+                            <h5 className="text-white  p-2 ">Highlights</h5>
+                            {renderHighlights(data.highlights)}
+                        </Container>
                         <Container className="text-white mb-4 p-3  rounded-4">
                             <h5 className="text-white  p-2 ">Projects</h5>
                             {renderProjects(data.projects)}
