@@ -10,9 +10,9 @@ The **Portfolio Website** is a responsive, modern web application built using **
 - **Dynamic Content:** Easily customizable to showcase projects and experience.  
 - **Fast Deployment:** Simple build and deployment process.  
 
+
 ## Technologies Used  
 - **Frontend:** React, Bootstrap  
-- **State Management:** React Hooks  
 - **Deployment:** GitHub Pages (or any preferred hosting service)  
 
 ## Installation  
