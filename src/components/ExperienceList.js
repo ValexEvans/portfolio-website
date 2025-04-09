@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import cooledtured from '../assets/cooledtured.png'; // Replace with your profile photo path
 import viable from '../assets/viable.jpg'; // Replace with your profile photo path
@@ -57,10 +56,10 @@ export default function ExperienceList() {
         ],
         highlights: [
             {
-                title: "Full-Stack Development for LAMP Stack Contact Manager Project",
-                duration: "01/24 - 02/24",
-                icon: <a href="https://github.com/ValexEvans/html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
-                summary: "Developed a multi-user web application with role-based access control using the LAMP stack, ensuring security and scalability. The project leveraged HTML, CSS, JavaScript, PHP, and MySQL, with deployment on DigitalOcean for optimal performance.",
+                title: "Custom Prosthetic Hand and Gearbox Development",
+                duration: "Spring 2021",
+                icon: <a href="https://github.com/ValexEvans/robotic-hand/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
+                summary: "Utilized Fusion 360 to design and model prosthetic hands and a custom 3D-printed gearbox assembly, ensuring mechanical functionality and precision. Led the assembly process and conducted rigorous testing to evaluate performance, durability, and alignment with design requirements.",
             },
             {
                 title: "Portfolio Website Development to Showcase Skills and Projects",
