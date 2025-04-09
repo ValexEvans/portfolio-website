@@ -62,11 +62,10 @@ export default function ExperienceList() {
                 summary: "Utilized Fusion 360 to design and model prosthetic hands and a custom 3D-printed gearbox assembly, ensuring mechanical functionality and precision. Led the assembly process and conducted rigorous testing to evaluate performance, durability, and alignment with design requirements.",
             },
             {
-                title: "Portfolio Website Development to Showcase Skills and Projects",
-                duration: "Ongoing",
-                icon: <a href="https://github.com/ValexEvans/portfolio-website" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
-                summary: "Designed and developed a fully responsive personal portfolio website using React and Bootstrap to effectively present professional accomplishments. The site features a clean, modern interface with dedicated sections for project highlights, technical skills, education, and work experience.",
-
+                title: "Java Learning Programs Repository",
+                duration: "Spring 2023",
+                icon: <a href="https://github.com/ValexEvans/java-learning-programs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
+                summary: "Completed a series of Java programming exercises focused on object-oriented principles and core programming concepts. Developed applications including a payroll calculator, currency breakdown tool, employee class structure, book inventory system, and a university people management system. Emphasized OOP, user input, data handling, and real-world problem-solving.",
             }
         ],
         projects: [
@@ -172,7 +171,7 @@ export default function ExperienceList() {
                             <span className="highlight-icon">{highlights.icon}</span>
                         </div>
 
-                        
+
                     </div>
                 </Col>
             ))}
@@ -185,7 +184,7 @@ export default function ExperienceList() {
             <Row>
                 <Col>
                     <div className="rounded">
-                        
+
                         <Container className="text-white mb-4 p-3  rounded-4">
                             <h5 className="text-white  p-2 ">Highlights</h5>
                             {renderHighlights(data.highlights)}
