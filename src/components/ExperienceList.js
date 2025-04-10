@@ -86,13 +86,13 @@ export default function ExperienceList() {
                 summary: "Designed and developed a fully responsive personal portfolio website using React and Bootstrap to effectively present professional accomplishments. The site features a clean, modern interface with dedicated sections for project highlights, technical skills, education, and work experience.",
 
             },
-            {
-                title: "Anime Tracker App Development",
-                duration: "Ongoing",
-                icon: <a href="https://github.com/ValexEvans/anime-tracker" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
-                summary: "Built a lightweight, cross-platform anime tracking app using .NET and C#. Focused on core tracking features with CRUD operations and a minimalist UI styled with Bootstrap. Utilized SQLite for simple, local storage. Designed to explore .NET development and planned for future API integration using Jikan.",
+            // {
+            //     title: "Anime Tracker App Development",
+            //     duration: "Ongoing",
+            //     icon: <a href="https://github.com/ValexEvans/anime-tracker" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><FaGithub /><span style={{ fontSize: '12px' }}> View More</span></a>,
+            //     summary: "Built a lightweight, cross-platform anime tracking app using .NET and C#. Focused on core tracking features with CRUD operations and a minimalist UI styled with Bootstrap. Utilized SQLite for simple, local storage. Designed to explore .NET development and planned for future API integration using Jikan.",
 
-            },
+            // },
             {
                 title: "Mobile Application Development for Turntable Project",
                 duration: "02/24 - 04/24",
